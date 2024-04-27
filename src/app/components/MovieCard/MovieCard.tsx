@@ -7,6 +7,7 @@ interface MovieItem {
   title: string;
   release_date: string;
   vote_average: number;
+    overview:string;
 }
 
 // Define the type for the props of the MovieCard component
@@ -26,6 +27,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ item }) => {
           <h3 className="announce-item">{item.title}</h3>
           <p className="announce-item">{item.release_date}</p>
           <p className="announce-item">Rating: {item.vote_average}</p>
+          <p style={{maxWidth:"100%", textOverflow:'ellipsis',height: "18px", overflow:'hidden'}}>{item.overview}</p>
         </div>
       </div>
     </div>

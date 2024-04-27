@@ -32,7 +32,7 @@ export interface StateType {
       case 'SCROLL_DOWN':
         return {
           ...state,
-          suffixY: Number(state.prefixY)  + 1,
+          suffixY: Number(state.suffixY)  + 1,
           //@ts-ignore
          years:[...state.years, Number(state.suffixY)  + 1]
         };
