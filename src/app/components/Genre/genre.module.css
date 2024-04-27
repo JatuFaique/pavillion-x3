@@ -1,0 +1,15 @@
+.genre{
+    border-radius: 12px;
+    color:#ffffff;
+    padding: 8px 12px;
+    background: #ff0000;
+    cursor: pointer;
+}
+.genre:hover{
+    background: #650000;
+}
+
+.active{
+    background: #ffffff;
+    color:#000000;
+}

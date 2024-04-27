@@ -1,0 +1,6 @@
+.moviesWrapper{
+    display: flex;
+    padding-inline: 16px;
+    flex-wrap: wrap;
+    row-gap: 4px;
+}

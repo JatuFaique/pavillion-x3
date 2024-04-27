@@ -1,0 +1,33 @@
+
+
+.movieCardWrapper{
+    flex: 1 1 500px;
+    height: 200px;
+    border-radius: 10px;
+    justify-self: center;
+    position: relative;
+    max-width: 376px;
+}
+
+.movieCardWrapper .movieImageWrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.movieCardWrapper .movieImageWrapper img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+.moviTitleWrapper{
+    position:absolute;
+    align-items: center;
+    background: #aaaaaa84;
+    bottom: 0;
+    color: #ffffff;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
