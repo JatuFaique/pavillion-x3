@@ -6,13 +6,12 @@
 * In the terminal go to the project folder and type `npm install`
 
 * In same Terminal do
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### npm run dev
+or
+### yarn dev
+ or
+### pnpm dev
+### bun dev
 
 
 Open http://localhost:3000 with your browser to see the result.
