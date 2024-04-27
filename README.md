@@ -15,3 +15,18 @@ or
 
 
 Open http://localhost:3000 with your browser to see the result.
+
+
+
+Requirements covered:
+
+- Year wise Movies Timeline implemented
+- Scroll Triggered on Both Directions Implementation
+- Genres Filters, Active and Inactive implemented
+- Smooth Scrolling into view to prevent jumps
+
+Requirements Not Covered:
+
+- Search Implementation
+- Search Infinite Loading
+- Yearwise indicator should be floating in nature for better UX
